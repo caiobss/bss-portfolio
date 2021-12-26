@@ -45,7 +45,7 @@ html {
 }
 
 .mostre-side-bar .hamburguer {
-  right: 18rem;
+  right: 23rem;
 }
 
 .mostre-side-bar .line:nth-child(1) {
@@ -113,9 +113,9 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  width: 25rem;
+  width: 40%;
   top: 0%;
-  right: -25rem;
+  right: -40rem;
   -webkit-transition: .3s;
   transition: .3s;
   z-index: 90;
@@ -330,8 +330,8 @@ html {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-column-gap: 2rem;
-          column-gap: 2rem;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
   margin-top: 1rem;
   cursor: pointer;
 }
@@ -352,8 +352,7 @@ html {
 }
 
 .arte:hover {
-  height: 48%;
-  width: 33%;
+  padding: 2rem;
   border: white solid 6px;
 }
 

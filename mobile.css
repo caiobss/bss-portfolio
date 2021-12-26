@@ -1,2 +1,26 @@
-@media (max-width:700px){
+@media (max-width:750px){
+    .side-bar{
+        width: 100%;
+        right: -100rem;
+    }
+    .sessao-artes{
+        height: 200vh;
+    }
+    .artes{
+        height: 90%;
+        width: 100%;
+    }
+    .arte{
+        width: 90%;
+        height: 16%;
+    }
+}
+@media (max-width:1300px){
+    .banner{
+        width: 10%;
+        height: 10%;
+    }
+    .img-wrapper img{
+        width: 100%;
+    }
 }

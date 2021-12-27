@@ -1,6 +1,7 @@
 @media (max-width:730px){
     header{
-        height: 95vh;
+        height: 100vh;
+        color: white;
     }
     .side-bar{
         width: 100%;
@@ -23,15 +24,40 @@
     .buttons i{
         display: none;
     }
+    .sessao-informações{
+        height: 110vh;
+    }
     .informações{
         flex-direction: column;
+        height: 100%;
+    }
+    .about-me{
+        width: 80%;
+        text-align: center;
     }
     .img-wrapper img{
         display: none;
     }
     .img-wrapper{
+        background-color: rgb(71, 126, 230);
         background-image: url(/banner-site-mobile.png);
+        opacity: 0.7;
+        background-attachment: fixed;
         background-size: cover;
+    }
+    .mim-info{
+        flex-direction: column;
+    }
+    .mim-info:nth-child(2){
+        flex-direction: column;
+    }
+    .img-sobre-mim{
+        margin-bottom: 1rem;
+        width: 90%;
+        height: 60%;
+    }
+    .text-sobre-mim{
+        width: 95%;
     }
 }
 @media (max-width:1300px){

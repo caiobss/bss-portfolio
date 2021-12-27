@@ -1,4 +1,7 @@
 @media (max-width:730px){
+    header{
+        height: 90vh;
+    }
     .side-bar{
         width: 100%;
         right: -100rem;

@@ -26,6 +26,9 @@
     .informações{
         flex-direction: column;
     }
+    .img-wrapper img{
+        object-fit: cover;
+    }
 }
 @media (max-width:1300px){
     .banner{

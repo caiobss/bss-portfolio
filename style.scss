@@ -226,6 +226,7 @@ html{
     height: 45%;
     width: 30%;
     transition: .3s;
+    border-radius: 10px;
 }
 .arte img{
     object-fit: contain;
@@ -339,7 +340,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 4rem;
+    padding: 0 5rem;
 }
 footer a{
     color: white;

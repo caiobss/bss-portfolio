@@ -39,7 +39,7 @@
         display: none;
     }
     .img-wrapper{
-        background-color: rgb(71, 126, 230);
+        background-color: rgb(93, 140, 228);
         background-image: url(/banner-site-mobile.png);
         opacity: 0.7;
         background-attachment: fixed;
@@ -58,6 +58,21 @@
     }
     .text-sobre-mim{
         width: 95%;
+    }
+    .button-up{
+        height: 3.5vh;
+    }
+    footer{
+        height: 15vh;
+        padding: 0 3rem;
+    }
+    .copyright{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .redes-sociais i{
+        font-size: 1.8rem;
+        width: 30%;
     }
 }
 @media (max-width:1300px){

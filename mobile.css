@@ -1,7 +1,4 @@
-@media (max-width:900px){
-    header{
-        height: 70vh;
-    }
+@media (max-width:730px){
     .side-bar{
         width: 100%;
         right: -100rem;
@@ -18,11 +15,10 @@
         height: 16%;
     }
     .bnt{
-        padding: .8rem 2rem;
+        padding: 1rem 2rem;
     }
     .buttons i{
-        font-size: 1.5rem;
-        padding: .4rem;
+        display: none;
     }
     .informações{
         flex-direction: column;
@@ -36,10 +32,12 @@
     }
     .txt-banner h1{
         font-size: 2rem;
+        margin-bottom: 10rem;
 
     }
     .txt-banner legend{
         font-size: 1.5rem;
+        margin-bottom: 3rem;
     }
     .txt-banner p{
         font-size: 1rem;

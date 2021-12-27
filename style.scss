@@ -287,6 +287,9 @@ html{
     align-items: center;
     padding: 1rem 0;
 }
+.mim-info:nth-child(2){
+    flex-direction: row-reverse;
+}
 .img-sobre-mim{
     background-color: #ffffff;
     height: 100%;

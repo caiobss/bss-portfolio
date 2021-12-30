@@ -35,7 +35,7 @@ html{
     transition: .5s;
 }
 .mostre-side-bar .hamburguer{
-    right: 18rem;
+    right: 26%;
 }
 .mostre-side-bar .line:nth-child(1){
     transform: rotate(42deg) translate(.1rem, .2rem);
@@ -217,8 +217,8 @@ html{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    column-gap: 1rem;
-    margin-top: 1rem;
+    column-gap: 2%;
+    margin-top: 2%;
     cursor: pointer;
 }
 .arte{

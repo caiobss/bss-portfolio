@@ -1,12 +1,65 @@
-@media (max-width:830px){
+@media (max-width:1200px){
+    .banner{
+        top: 30%;
+        width: 80%;
+        height: 10%;
+    }
+    .img-wrapper img{
+        width: 100%;
+    }
+}
+@media (max-width:950px){
+    .banner{
+        top: 40%;
+    }
+    .txt-banner h1{
+        font-size: 2.8rem;
+    }
+    .txt-banner legend{
+        font-size: 1.5rem;
+    }
+    .txt-banner p{
+        font-size: 1.6rem;
+    }
+    .mostre-side-bar .hamburguer{
+        right: 41%;
+    }
+    .side-bar{
+        width: 60%;
+        right: -100rem;
+    }
+}
+@media (max-width:780px){
     header{
         height: 100vh;
         color: white;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
+        text-shadow: 1px 1px 1px rgba(19, 19, 19, 0.603);
+    }
+    .txt-banner h1{
+        font-size: 2rem;
+        margin-bottom: 4rem;
+
+    }
+    .txt-banner legend{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    .txt-banner p{
+        font-size: 1rem;
     }
     .side-bar{
-        width: 100%;
+        width: 70%;
         right: -100rem;
+    }
+    .side-bar .menu{
+        font-size: 1.5rem;
+    }
+    .artes-bnt .bnt{
+        padding: 1rem 1.2rem;
+        font-size: 1.5rem;
+    }
+    .mostre-side-bar .hamburguer{
+        right: 52%;
     }
     .sessao-artes{
         height: 200vh;
@@ -80,27 +133,5 @@
     .redes-sociais i{
         font-size: 1.8rem;
         width: 30%;
-    }
-}
-@media (max-width:1200px){
-    .banner{
-        top: 25%;
-        width: 80%;
-        height: 10%;
-    }
-    .txt-banner h1{
-        font-size: 2rem;
-        margin-bottom: 4rem;
-
-    }
-    .txt-banner legend{
-        font-size: 1.5rem;
-        margin-bottom: 3rem;
-    }
-    .txt-banner p{
-        font-size: 1rem;
-    }
-    .img-wrapper img{
-        width: 100%;
     }
 }

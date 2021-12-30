@@ -1,15 +1,25 @@
 @media (max-width:1200px){
     .banner{
-        top: 30%;
-        width: 80%;
+        top: 35%;
+        width: 60%;
         height: 10%;
     }
     .img-wrapper img{
         width: 100%;
     }
+    .txt-banner h1{
+        font-size: 3rem;
+    }
+    .txt-banner legend{
+        font-size: 1rem;
+    }
+    .txt-banner p{
+        font-size: 1.5rem;
+    }
 }
 @media (max-width:950px){
     .banner{
+        width: 80%;
         top: 40%;
     }
     .txt-banner h1{
@@ -30,6 +40,9 @@
     }
 }
 @media (max-width:780px){
+    .banner{
+        top: 35%;
+    }
     header{
         height: 100vh;
         color: white;
@@ -53,6 +66,10 @@
     }
     .side-bar .menu{
         font-size: 1.5rem;
+    }
+    .side-bar .menu .bnt{
+        padding: 1rem 1rem;
+        font-size: 1rem;
     }
     .artes-bnt .bnt{
         padding: 1rem 1.2rem;
@@ -115,9 +132,6 @@
     }
     .text-sobre-mim{
         width: 95%;
-    }
-    .sobre-mim{
-        margin: 30rem 0;
     }
     .button-up{
         height: 3.5vh;

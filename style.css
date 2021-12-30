@@ -462,7 +462,7 @@ html {
 
 .text-sobre-mim {
   width: 60%;
-  height: 50%;
+  max-height: 20rem;
   margin-left: 1rem;
 }
 

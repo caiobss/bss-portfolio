@@ -139,6 +139,31 @@ html {
   margin-top: 5rem;
 }
 
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social-media i {
+  display: none;
+  background-color: #d192f7;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: .5rem;
+  -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.562);
+          box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.562);
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .mostre-side-bar .side-bar {
   right: 0;
 }
@@ -398,6 +423,29 @@ html {
   width: 15rem;
   -webkit-transition: .3s;
   transition: .3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.informação i {
+  color: #3d3d3d;
+  font-size: 4rem;
+  margin-bottom: .8rem;
+}
+
+.informação img {
+  border-radius: 50%;
 }
 
 .about-me {

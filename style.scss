@@ -94,6 +94,23 @@ html{
     text-decoration: none;
     margin-top: 5rem;
 }
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.social-media i{
+    display: none;
+    background-color: #d192f7;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: .5rem;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.562);
+    cursor: pointer;
+    transition: .3s;
+}
 .mostre-side-bar .side-bar{
     right: 0;
 }
@@ -261,6 +278,18 @@ html{
     height: 15rem;
     width: 15rem;
     transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.informação i{
+    color: rgb(61, 61, 61);
+    font-size: 4rem;
+    margin-bottom: .8rem;
+}
+.informação img{
+    border-radius: 50%;
 }
 .about-me{
     width: 34%;

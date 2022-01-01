@@ -39,7 +39,7 @@
         right: -100rem;
     }
 }
-@media (max-width:780px){
+@media (max-width:750px){
     .banner{
         top: 35%;
     }
@@ -153,3 +153,19 @@
     }
 }
 /*responsivo vertical*/
+@media (max-height:576px){
+    .banner{
+        height: 60%;
+    }
+    .informação{
+        height: 10rem;
+        width: 10rem;
+    }
+    .informação img{
+        height: 100%;
+        width: 100%;
+    }
+    .side-bar .menu{
+        height: 100%;
+    }
+}

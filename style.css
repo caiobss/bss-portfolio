@@ -85,7 +85,7 @@ html {
 }
 
 .hamburguer div {
-  background-color: white;
+  background-color: #f1f1f1f1;
   margin: .3rem;
   height: .14rem;
   width: 1.5rem;
@@ -98,7 +98,7 @@ html {
 
 .side-bar {
   position: fixed;
-  background-color: #ffffff;
+  background-color: #faf9f9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

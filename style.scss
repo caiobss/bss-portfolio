@@ -72,13 +72,13 @@ html{
 }
 .side-bar{
     position: fixed;
-    background-color: #faf9f9;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 40%;
+    width: 35%;
     top: 0%;
     right: -150rem;
     transition: .3s;
@@ -88,11 +88,11 @@ html{
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-between;
-    height: 45%;
+    justify-content: center;
+    height: 100%;
     font-size: 2rem;
     text-decoration: none;
-    margin-top: 5rem;
+    line-height: 5rem;
 }
 .mostre-side-bar .side-bar{
     right: 0;

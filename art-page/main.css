@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(223, 219, 219);
+}
+.seta-voltar{
+    background-color: #b372f0;
+    color: white;
+    padding: 1.4rem;
+    border-radius: 20px 0 20px;
+    position: absolute;
+}
+.seta-voltar i{
+    font-size: 1.3rem;
+}
+.seta-voltar span{
+    display: none;
+    background-color: #3f4149;
+    position: absolute;
+    height: 3rem;
+    width: 4rem;
+    left: 100%;
+    top: 0%;
+    text-align: center;
+    border-radius: 0 0 20px;
+}
+.seta-voltar:hover span{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-art{
+    background-color: rgb(224, 224, 224);
+    height: 95vh;
+    width: 70vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    animation: exibir-arte 1s;
+}
+@keyframes exibir-arte{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.left{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left-txt{
+    width: 60%;
+}
+.left-txt h1{
+    margin-bottom: 1rem;
+}
+.right{
+    background-color: #ffffff;
+    height: 100%;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+.arte-img{
+    height: 100%;
+    width: 100%;
+}
+.arte-img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+}

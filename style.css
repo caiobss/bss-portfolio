@@ -355,10 +355,6 @@ html {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-column-gap: 2%;
-          column-gap: 2%;
-  margin-top: 2%;
-  cursor: pointer;
 }
 
 .arte {
@@ -368,6 +364,8 @@ html {
   -webkit-transition: .3s;
   transition: .3s;
   border-radius: 10px;
+  margin: 1% 1%;
+  cursor: pointer;
 }
 
 .arte img {

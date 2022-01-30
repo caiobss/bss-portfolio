@@ -234,9 +234,6 @@ html{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    column-gap: 2%;
-    margin-top: 2%;
-    cursor: pointer;
 }
 .arte{
     background-color: #ffffff;
@@ -244,6 +241,8 @@ html{
     width: 30%;
     transition: .3s;
     border-radius: 10px;
+    margin: 1% 1%;
+    cursor: pointer;
 }
 .arte img{
     object-fit: contain;

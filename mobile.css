@@ -209,8 +209,8 @@
 @media (max-width:999px){
     .background-art{
         flex-direction: column-reverse;
-        height: 97vh;
-        width: 98vw;
+        height: 100vh;
+        width: 100vw;
     }
     .right{
         width: 100%;
@@ -222,8 +222,18 @@
         height: 50%;
         border-radius: 0;
     }
+    .left-txt{
+        font-size: .8rem;
+    }
     .arte-img img{
-        object-fit: contain;
+        object-fit: cover;
         border-radius: 0;
+    }
+    .seta-voltar{
+        padding: 1rem;
+    }
+    .seta-voltar span{
+        height: 2rem;
+        width: 4rem;
     }
 }

@@ -207,12 +207,17 @@
 }
 /*responsivo da página focada as artes*/
 @media (max-width:999px){
+    .body-art{
+        background-color: white;
+    }
     .background-art{
+        background-color: white;
         flex-direction: column-reverse;
         height: 100vh;
         width: 100vw;
     }
     .right{
+        margin-top: 1rem ;
         width: 100%;
         height: 50%;
         border-radius: 0;

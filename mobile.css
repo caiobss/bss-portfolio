@@ -226,7 +226,7 @@
         font-size: .8rem;
     }
     .arte-img img{
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 0;
     }
     .seta-voltar{

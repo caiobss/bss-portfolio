@@ -1,3 +1,4 @@
+/*responsivo da página inicial*/
 @media (max-width:1200px){
     .banner{
         top: 35%;
@@ -202,5 +203,27 @@
     .side-bar .menu .bnt{
         padding: 1rem 1rem;
         font-size: 1rem;
+    }
+}
+/*responsivo da página focada as artes*/
+@media (max-width:999px){
+    .background-art{
+        flex-direction: column-reverse;
+        height: 97vh;
+        width: 98vw;
+    }
+    .right{
+        width: 100%;
+        height: 50%;
+        border-radius: 0;
+    }
+    .left{
+        width: 100%;
+        height: 50%;
+        border-radius: 0;
+    }
+    .arte-img img{
+        object-fit: contain;
+        border-radius: 0;
     }
 }

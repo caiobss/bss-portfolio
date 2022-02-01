@@ -61,7 +61,7 @@
         font-size: 1rem;
     }
     .side-bar{
-        width: 70%;
+        width: 100%;
         right: -100rem;
     }
     .side-bar .menu{
@@ -82,7 +82,7 @@
         display: none;
     }
     .mostre-side-bar .hamburguer{
-        right: 52%;
+        right: 75%;
     }
     .sessao-artes{
         height: 0%;

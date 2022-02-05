@@ -18,7 +18,7 @@
         font-size: 1.5rem;
     }
 }
-@media (max-width:950px){
+@media (max-width:1080px){
     .banner{
         width: 80%;
         top: 40%;
@@ -39,8 +39,19 @@
         width: 60%;
         right: -100rem;
     }
+    .img-wrapper{
+        background-color: rgb(93, 140, 228);
+        opacity: 0.7;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 }
-@media (max-width:750px){
+@media (max-width:850px){
+    .buttons{
+        width:110%;
+    }
+}
+@media (max-width:700px){
     .banner{
         top: 35%;
     }

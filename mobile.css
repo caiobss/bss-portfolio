@@ -1,5 +1,5 @@
 /*responsivo da página inicial*/
-@media (max-width:1200px){
+@media (max-width:1380px){
     .banner{
         top: 35%;
         width: 60%;
@@ -22,6 +22,7 @@
     .banner{
         width: 80%;
         top: 40%;
+        color: white;
     }
     .txt-banner h1{
         font-size: 2.8rem;
@@ -39,8 +40,12 @@
         width: 60%;
         right: -100rem;
     }
+    .img-wrapper img{
+        display: none;
+    }
     .img-wrapper{
-        background-color: rgb(93, 140, 228);
+        background-color: rgb(33, 56, 100);
+        background-image: url(/imgs/banner-site-mobile.png);
         opacity: 0.7;
         background-attachment: fixed;
         background-size: cover;
@@ -51,7 +56,16 @@
         width:110%;
     }
 }
-@media (max-width:700px){
+@media (max-width:735px){
+    .copyright{
+        font-size: .9rem;
+    }
+    .redes-sociais i{
+        font-size: 1.5rem;
+        width: 10%;
+    }
+}
+@media (max-width:660px){
     .banner{
         top: 35%;
     }
@@ -126,16 +140,6 @@
         width: 80%;
         text-align: center;
     }
-    .img-wrapper img{
-        display: none;
-    }
-    .img-wrapper{
-        background-color: rgb(93, 140, 228);
-        background-image: url(/imgs/banner-site-mobile.png);
-        opacity: 0.7;
-        background-attachment: fixed;
-        background-size: cover;
-    }
     .mim-info{
         flex-direction: column;
     }
@@ -160,16 +164,8 @@
         height: 15vh;
         padding: 0 3rem;
     }
-    .copyright{
-        font-size: 1rem;
-        width: 100%;
-    }
-    .redes-sociais i{
-        font-size: 1.8rem;
-        width: 30%;
-    }
 }
-/*responsivo vertical*/
+/*segunda pagina*/
 @media (max-height:476px){
     .banner{
         height: 60%;

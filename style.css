@@ -539,7 +539,7 @@ html {
 .button-up span {
   position: absolute;
   background-color: #3f4149;
-  height: 2rem;
+  height: 2%;
   width: 100%;
   top: -2rem;
   display: -webkit-box;

@@ -1,5 +1,5 @@
 /*responsivo da página inicial*/
-@media (max-width:1380px){
+@media (max-width:1180px){
     .banner{
         top: 35%;
         width: 60%;
@@ -55,6 +55,19 @@
     .buttons{
         width:110%;
     }
+    .sessao-artes{
+        height: 0%;
+    }
+    .artes{
+        height: 100%;
+        width: 100%;
+    }
+    .arte{
+        width: 20rem;
+        height: 30rem;
+        margin: 1rem 1rem;
+    }
+    
 }
 @media (max-width:735px){
     .copyright{

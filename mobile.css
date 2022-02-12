@@ -255,6 +255,8 @@
         border-radius: 0;
     }
     .seta-voltar{
+        left: 2%;
+        bottom: 2%;
         padding: 1rem;
     }
     .seta-voltar span{

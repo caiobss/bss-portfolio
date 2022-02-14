@@ -25,13 +25,13 @@
         color: white;
     }
     .txt-banner h1{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     .txt-banner legend{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .txt-banner p{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     .mostre-side-bar .hamburguer{
         right: 41%;
@@ -70,6 +70,9 @@
     
 }
 @media (max-width:735px){
+    .banner{
+        width: 100%;
+    }
     .copyright{
         font-size: .9rem;
     }
@@ -159,9 +162,6 @@
     .mim-info:nth-child(2){
         flex-direction: column;
     }
-    .sessao-sobre-mim{
-        height: 180vh;
-    }
     .img-sobre-mim{
         margin-bottom: 1rem;
         width: 90%;
@@ -179,7 +179,7 @@
     }
 }
 /*segunda pagina*/
-@media (max-height:476px){
+@media (max-height:496px){
     .banner{
         height: 60%;
         top: 45%;
@@ -190,9 +190,6 @@
     .buttons i{
         font-size: 1.5rem;
         padding: .5rem;
-    }
-    .sessao-sobre-mim{
-        height: 200vh;
     }
     .informação {
         height: 10rem;

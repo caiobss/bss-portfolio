@@ -325,6 +325,11 @@ html{
     height: 100%;
     width: 40%;
 }
+.img-sobre-mim img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
 .text-sobre-mim{
     width: 60%;
     max-height: 20rem;
@@ -375,9 +380,10 @@ footer a{
     color: white;
 }
 .copyright{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    width: 80%;
 }
 .redes-sociais i{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0 1rem;
 }

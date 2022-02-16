@@ -52,9 +52,6 @@
     }
 }
 @media (max-width:850px){
-    .buttons{
-        width:110%;
-    }
     .sessao-artes{
         height: 0%;
     }
@@ -71,7 +68,7 @@
 }
 @media (max-width:735px){
     .banner{
-        width: 100%;
+        width: 90%;
     }
     .copyright{
         font-size: .9rem;
@@ -150,7 +147,7 @@
     }
     .informações{
         flex-direction: column;
-        height: 100%;
+        height: 80%;
     }
     .about-me{
         width: 80%;

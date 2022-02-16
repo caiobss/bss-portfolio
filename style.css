@@ -454,6 +454,8 @@ html {
 /*sessao sobre mim*/
 .sessao-sobre-mim {
   background-color: #e7e7e7;
+  height: 180vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

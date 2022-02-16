@@ -7,6 +7,7 @@ body{
     padding: 1.4rem;
     border-radius: 20px 0 20px;
     position: absolute;
+    cursor: pointer;
 }
 .seta-voltar i{
     font-size: 1.3rem;

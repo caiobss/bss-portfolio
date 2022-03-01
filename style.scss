@@ -1,5 +1,5 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 *{
     margin: 0%;
     padding: 0%;
@@ -239,17 +239,27 @@ html{
     background-color: #ffffff;
     height: 45%;
     width: 30%;
-    transition: .3s;
     border-radius: 10px;
     margin: 1% 1%;
     cursor: pointer;
+    position: relative;
 }
+/*.artes .arte i{
+    position: absolute;
+    font-size: 2rem;
+    background-color: #a3a0a0;
+    color: rgb(233, 248, 27);
+    border-radius: 10px 0 10px 0 ;
+    padding: .5rem 1.1rem;
+}*/
 .arte img{
     object-fit: contain;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
+    transition: .3s;
 }
-.arte:hover{
+.arte img:hover{
     padding: 1rem;
     border: rgb(255, 255, 255) solid 6px;
 }

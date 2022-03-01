@@ -1,225 +1,261 @@
-/*responsivo da página inicial*/
-@media (max-width:1180px){
-    .banner{
-        top: 35%;
-        width: 60%;
-        height: 10%;
+/*Responsivo do home vertical*/
+@media (orientation: portrait){
+    @media (max-width:1180px){
+        .banner{
+            top: 35%;
+            width: 60%;
+            height: 10%;
+        }
+        .img-wrapper img{
+            width: 100%;
+        }
+        .txt-banner h1{
+            font-size: 3rem;
+        }
+        .txt-banner legend{
+            font-size: 1rem;
+        }
+        .txt-banner p{
+            font-size: 1.5rem;
+        }
     }
-    .img-wrapper img{
-        width: 100%;
+    @media (max-width:1080px){
+        .banner{
+            width: 80%;
+            top: 40%;
+            color: white;
+        }
+        .txt-banner h1{
+            font-size: 2rem;
+        }
+        .txt-banner legend{
+            font-size: 1.3rem;
+        }
+        .txt-banner p{
+            font-size: 1rem;
+        }
+        .mostre-side-bar .hamburguer{
+            right: 41%;
+        }
+        .side-bar{
+            width: 60%;
+            right: -100rem;
+        }
+        .img-wrapper img{
+            display: none;
+        }
+        .img-wrapper{
+            background-color: rgb(187, 203, 207);
+            background-image: url(/imgs/banner-site-mobile.png);
+            background-attachment: fixed;
+            background-size: cover;
+        }
     }
-    .txt-banner h1{
-        font-size: 3rem;
+    @media (max-width:850px){
+        .sessao-artes{
+            height: 0%;
+        }
+        .artes{
+            height: 100%;
+            width: 100%;
+        }
+        .arte{
+            width: 20rem;
+            height: 30rem;
+            margin: 1rem 1rem;
+        }  
     }
-    .txt-banner legend{
-        font-size: 1rem;
+    @media (max-width:735px){
+        .banner{
+            width: 90%;
+        }
+        .copyright{
+            font-size: .9rem;
+        }
+        .redes-sociais i{
+            font-size: 1.5rem;
+            width: 10%;
+        }
     }
-    .txt-banner p{
-        font-size: 1.5rem;
-    }
-}
-@media (max-width:1080px){
-    .banner{
-        width: 80%;
-        top: 40%;
-        color: white;
-    }
-    .txt-banner h1{
-        font-size: 2rem;
-    }
-    .txt-banner legend{
-        font-size: 1.3rem;
-    }
-    .txt-banner p{
-        font-size: 1rem;
-    }
-    .mostre-side-bar .hamburguer{
-        right: 41%;
-    }
-    .side-bar{
-        width: 60%;
-        right: -100rem;
-    }
-    .img-wrapper img{
-        display: none;
-    }
-    .img-wrapper{
-        background-color: rgb(187, 203, 207);
-        background-image: url(/imgs/banner-site-mobile.png);
-
-        background-attachment: fixed;
-        background-size: cover;
-    }
-}
-@media (max-width:850px){
-    .sessao-artes{
-        height: 0%;
-    }
-    .artes{
-        height: 100%;
-        width: 100%;
-    }
-    .arte{
-        width: 20rem;
-        height: 30rem;
-        margin: 1rem 1rem;
-    }
+    @media (max-width:660px){
+        .banner{
+            top: 35%;
+        }
+        header{
+            height: 100vh;
+            color: white;
+            text-shadow: 1px 1px 1px rgba(19, 19, 19, 0.603);
+        }
+        .txt-banner h1{
+            font-size: 2rem;
+            margin-bottom: 4rem;
     
-}
-@media (max-width:735px){
-    .banner{
-        width: 90%;
-    }
-    .copyright{
-        font-size: .9rem;
-    }
-    .redes-sociais i{
+        }
+        .txt-banner legend{
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .txt-banner p{
+            font-size: 1rem;
+        }
+        .side-bar{
+            width: 100%;
+            right: -100rem;
+        }
+        .side-bar .menu{
+            font-size: 1rem;
+        }
+        .side-bar .menu .bnt{
+            padding: 1rem 1rem;
+            font-size: 1rem;
+        }
+        .social-media{
+            column-gap: 2rem;
+        }
+        .social-media i{
+            display: block;
+            font-size: 1.5rem;
+        }
+        .buttons i{
+            display: none;
+        }
+        .mostre-side-bar .hamburguer{
+            right: 75%;
+        }
+        .sessao-artes{
+            height: 0%;
+        }
+        .artes{
+            height: 90%;
+            width: 100%;
+        }
+        .arte{
+            width: 25rem;
+            height: 30rem;
+            margin: 1rem 1rem;
+        }
+        .bnt{
+            padding: 1rem 2rem;
+        }
+        .artes-bnt .bnt{
+        padding: 1rem 1.2rem;
         font-size: 1.5rem;
-        width: 10%;
+        }
+        .sessao-informações{
+            position: relative;
+            height: 140vh;
+        }
+        .informações{
+            flex-direction: column;
+            height: 80%;
+        }
+        .sessao-sobre-mim{
+            height: 100%;
+        }
+        .sobre-mim{
+            height: 100%;
+        }
+        .about-me{
+            width: 80%;
+            text-align: center;
+        }
+        .mim-info{
+            flex-direction: column;
+        }
+        .mim-info:nth-child(2){
+            flex-direction: column;
+        }
+        .img-sobre-mim{
+            margin-bottom: 1rem;
+            width: 90%;
+            height: 60%;
+        }
+        .text-sobre-mim{
+            width: 95%;
+        }
+        .button-up{
+            height: 3.5vh;
+        }
+        footer{
+            height: 15vh;
+            padding: 0 3rem;
+        }
     }
 }
-@media (max-width:660px){
-    .banner{
-        top: 35%;
+/*responsivo do home horizontal*/
+@media (orientation:landscape){
+    @media (max-width: 1150px) {
+        .img-wrapper img{
+            width: 100%;
+        }
+        .banner h1{
+            font-size: 2.8rem;
+        }
+        .banner p{
+            font-size: 1.5rem;
+        }
+        .sessao-sobre-mim{
+            height: 100%;
+        }
+        .sobre-mim{
+            height: 100%;
+        }
     }
-    header{
-        height: 100vh;
-        color: white;
-        text-shadow: 1px 1px 1px rgba(19, 19, 19, 0.603);
+    @media (max-width:870px){
+        .hamburguer{
+            padding: .2rem;
+        }
+        .buttons{
+            width: 160%;
+        }
     }
-    .txt-banner h1{
-        font-size: 2rem;
-        margin-bottom: 4rem;
+    @media (max-height:630px) {
+        .banner h1{
+            font-size: 2rem;
+        }
+        .txt-banner legend{
+            font-size: 1.3rem;
+        }
+        .banner p{
+            font-size: 1rem;
+        }
+        .buttons .bnt{
+            padding: .6rem 1.5rem;
+        }
+        .buttons i{
+            padding: .5rem;
+            font-size: 1rem;
+        }
+        .informação img{
+            height: 9rem;
+            width: 9rem;
+        }
+        .about-me{
+            width: 100%;
+            font-size: .8rem;
+        }
+    }
+    @media (max-width: 711px), (max-height: 429px) {
+        .informação{
+            height: 9rem;
+            width: 9rem;
+            font-size: .9rem;
+        }
+        .informação i{
+            font-size: 3rem;
+        }
+    }
+}/***********************************/
 
-    }
-    .txt-banner legend{
-        font-size: 1.5rem;
-        margin-bottom: 3rem;
-    }
-    .txt-banner p{
-        font-size: 1rem;
-    }
-    .side-bar{
-        width: 100%;
-        right: -100rem;
-    }
-    .side-bar .menu{
-        font-size: 1rem;
-    }
-    .side-bar .menu .bnt{
-        padding: 1rem 1rem;
-        font-size: 1rem;
-    }
-    .social-media{
-        column-gap: 2rem;
-    }
-    .social-media i{
-        display: block;
-        font-size: 1.5rem;
-    }
-    .buttons i{
-        display: none;
-    }
-    .mostre-side-bar .hamburguer{
-        right: 75%;
-    }
-    .sessao-artes{
-        height: 0%;
-    }
-    .artes{
-        height: 90%;
-        width: 100%;
-    }
-    .arte{
-        width: 25rem;
-        height: 30rem;
-        margin: 1rem 1rem;
-    }
-    .bnt{
-        padding: 1rem 2rem;
-    }
-    .artes-bnt .bnt{
-    padding: 1rem 1.2rem;
-    font-size: 1.5rem;
-    }
-    .sessao-informações{
-        height: 140vh;
-    }
-    .informações{
-        flex-direction: column;
-        height: 80%;
-    }
-    .about-me{
-        width: 80%;
-        text-align: center;
-    }
-    .mim-info{
-        flex-direction: column;
-    }
-    .mim-info:nth-child(2){
-        flex-direction: column;
-    }
-    .img-sobre-mim{
-        margin-bottom: 1rem;
-        width: 90%;
-        height: 60%;
-    }
-    .text-sobre-mim{
-        width: 95%;
-    }
-    .button-up{
-        height: 3.5vh;
-    }
-    footer{
-        height: 15vh;
-        padding: 0 3rem;
-    }
-}
-/*segunda pagina*/
-@media (max-height:496px){
-    .banner{
-        height: 60%;
-        top: 45%;
-    }
-    .buttons{
-        padding-right: 14rem;
-    }
-    .buttons i{
-        font-size: 1.5rem;
-        padding: .5rem;
-    }
-    .informação {
-        height: 10rem;
-        width: 10rem;
-    }
-    .informação img{
-        height: 10rem;
-        width: 10rem;
-    }
-    .side-bar .menu{
-        height: 100%;
-    }
-    .txt-banner legend{
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-    }
-    .txt-banner p{
-        font-size: 1rem;
-        width: 60%;
-    }
-    .img-wrapper{
-        width: 110%;
-    }
-    .side-bar .menu{
-        font-size: 1rem;
-        margin-top: 3rem;
-    }
-    .side-bar .menu .bnt{
-        padding: 1rem 1rem;
-        font-size: 1rem;
-    }
-}
-/*responsivo da página focada as artes*/
+
+
+
+
+
+
+
+
+/*responsivo da página focada nas artes*/
 @media (max-width:999px){
     .body-art{
         background-color: white;

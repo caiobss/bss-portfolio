@@ -225,6 +225,7 @@
     }
     @media (max-width:1005px), (max-height:582px){
         .side-bar .menu{
+            margin-top: 4rem;
             font-size: 1.5rem;
             line-height: 3rem;
         }
@@ -260,7 +261,7 @@
             width: 10%;
         }
         .buttons{
-            width: 105%;
+            width: 110%;
         }
     }
     @media (max-width: 711px), (max-height: 429px) {
@@ -308,7 +309,7 @@
             font-size: .8rem;
         }
         .buttons{
-            width: 80%;
+            width: 100%;
         }
         
     }

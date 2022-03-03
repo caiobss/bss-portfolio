@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Bitter', serif;
 }
+:root{
+    --background1: rgb(179, 114, 240);
+}
 body{
     overflow-x: hidden;
 }
@@ -21,7 +24,7 @@ html{
     scroll-behavior: smooth;
 }
 .hamburguer{
-    background-color: rgb(179, 114, 240);
+    background-color: var(--background1);
     padding: .5rem;
     border-radius: 5px;
     position: fixed;
@@ -244,14 +247,14 @@ html{
     cursor: pointer;
     position: relative;
 }
-/*.artes .arte i{
+.artes .arte i{
     position: absolute;
     font-size: 2rem;
-    background-color: #a3a0a0;
-    color: rgb(233, 248, 27);
+    background-color: purple;
+    color: rgb(212, 223, 70);
     border-radius: 10px 0 10px 0 ;
     padding: .5rem 1.1rem;
-}*/
+}
 .arte img{
     object-fit: contain;
     height: 100%;
@@ -299,6 +302,8 @@ html{
 }
 .informação img{
     border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 .about-me{
     width: 35%;

@@ -255,6 +255,7 @@
         }
         .copyright{
             font-size: .9rem;
+            width: 80%;
         }
         .redes-sociais i{
             font-size: 1.5rem;
@@ -262,6 +263,9 @@
         }
         .buttons{
             width: 110%;
+        }
+        .button-up i{
+            font-size: 1rem;
         }
     }
     @media (max-width: 711px), (max-height: 429px) {
@@ -277,6 +281,11 @@
         }
         .informação i{
             font-size: 3rem;
+        }
+    }
+    @media (max-height: 509px) {
+        .sessao-informações{
+            height: 100vh;
         }
     }
     @media (max-height:630px) {

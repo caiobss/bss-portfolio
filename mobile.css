@@ -63,7 +63,7 @@
             width: 20rem;
             height: 30rem;
             margin: 1rem 1rem;
-        }  
+        }
     }
     @media (max-width:735px){
         .banner{
@@ -174,7 +174,9 @@
             width: 95%;
         }
         .button-up{
-            height: 3.5vh;
+            height: 2.5rem;
+            width: 2.5rem;
+            right: 9%;
         }
         footer{
             height: 15vh;

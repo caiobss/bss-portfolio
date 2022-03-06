@@ -33,6 +33,7 @@ html{
     z-index: 100;
     cursor: pointer;
     transition: .3s;
+    box-shadow: 1px 1px 1px black;
 }
 .hamburguer .line{
     transition: .5s;
@@ -51,17 +52,18 @@ html{
 }
 .hamburguer span{
     position: absolute;
-    left: 3.5rem;
+    left: 108%;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -.1rem;
-    background-color: rgb(179, 114, 240);
+    top: .1rem;
+    background-color: #3f4149;
     color: white;
-    height: 2.5rem;
+    height: 2rem;
     width: 8rem;
     opacity: 0;
     transition: .3s;
+    border-radius: 20px 0 0 20px;
 }
 .hamburguer div{
     background-color: #f1f1f1f1;
@@ -250,8 +252,8 @@ html{
 .artes .arte i{
     position: absolute;
     font-size: 2rem;
-    background-color: purple;
-    color: rgb(212, 223, 70);
+    background-color: rgb(158, 31, 184);
+    color: rgb(217, 231, 14);
     border-radius: 10px 0 10px 0 ;
     padding: .5rem 1.1rem;
 }
@@ -353,30 +355,37 @@ html{
 /*botão que leva para o começo da página*/
 
 .button-up{
-    position: relative;
+    position: fixed;
     background-color: rgb(179, 114, 240);
     text-decoration: none;
     color: white;
-    height: 5.5vh;
-    width: 100%;
+    height: 3.1rem;
+    width: 3.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 50;
+    right: 3%;
+    bottom: 6.5%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px black;
 }
 .button-up i{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .button-up[data-voltar]::after{
     position: absolute;
     background-color: #3f4149;
     content: attr(data-voltar);
-    height: 2rem;
-    width: 100%;
-    top: -2rem;
+    height: 2.5rem;
+    width: 15rem;
+    bottom: 10%;
+    right: 108%;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
+    border-radius: 0 20px 20px 0;
 }
 .button-up:hover::after {
     opacity: 1;

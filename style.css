@@ -563,6 +563,7 @@ html {
   border-radius: 100%;
   -webkit-box-shadow: 1px 1px 1px black;
           box-shadow: 1px 1px 1px black;
+  cursor: pointer;
 }
 
 .button-up i {
@@ -575,8 +576,8 @@ html {
   content: attr(data-voltar);
   height: 2.5rem;
   width: 15rem;
-  bottom: 10%;
-  right: 108%;
+  bottom: 120%;
+  right: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -587,7 +588,8 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   opacity: 0;
-  border-radius: 0 20px 20px 0;
+  border-radius: 20px;
+  cursor: help;
 }
 
 .button-up:hover::after {
@@ -610,7 +612,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 5rem;
+  padding: 0 7rem;
 }
 
 footer a {

@@ -110,7 +110,12 @@
             font-size: 1rem;
         }
         .social-media{
-            column-gap: 2rem;
+            position: absolute;
+            left: 50%;
+            top: 85%;
+            transform: translate(-50%);
+            width: 80%;
+            height: 100%;
         }
         .social-media i{
             display: block;
@@ -229,19 +234,18 @@
         .side-bar .menu{
             margin-top: 4rem;
             font-size: 1.5rem;
-            line-height: 3rem;
+            line-height: 230%;
         }
         .side-bar .menu .artes-bnt .bnt{
             font-size: 1rem;
             padding: .8rem 1.5rem;
         }
         .hamburguer{
-            padding: .2rem;
+            padding: 1%;
         }
         .hamburguer span{
-            height: 1.8rem;
-            width: 5rem;
-            left: 2.8rem;
+            left: 105%;
+            top: 10%;
         }
         
     }

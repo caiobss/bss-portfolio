@@ -4,10 +4,24 @@ body{
 .seta-voltar{
     background-color: #b372f0;
     color: white;
-    padding: 1.4rem;
+    padding: 1rem;
     border-radius: 20px 0 20px;
     position: absolute;
     cursor: pointer;
+}
+.arte-icon{
+    display: flex;
+    justify-content: center;
+}
+.bnt-arte-info{
+    background-color: #d1cbd6;
+    width: 18rem;
+    height: 100%;
+    padding: .4rem;
+    color: rgb(63, 59, 59);
+    border-radius: 15px 15px 0 0;
+    border: none;
+    display: none;
 }
 .seta-voltar i{
     font-size: 1.3rem;

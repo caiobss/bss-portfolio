@@ -95,9 +95,11 @@ html{
     text-align: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
     font-size: 2rem;
     text-decoration: none;
     line-height: 5rem;
+    margin-bottom: 10%;
 }
 .mostre-side-bar .side-bar{
     right: 0;
@@ -135,7 +137,7 @@ html{
 .img-wrapper img{
     object-fit:contain;
     height: 100%;
-    width: 114%;
+    width: 120%;
 }
 .banner{
     position: absolute;
@@ -374,7 +376,7 @@ html{
 .button-up i{
     font-size: 1.3rem;
 }
-.button-up[data-voltar]::after{
+/*.button-up[data-voltar]::after{
     position: absolute;
     background-color: #3f4149;
     content: attr(data-voltar);
@@ -392,7 +394,7 @@ html{
 .button-up:hover::after {
     opacity: 1;
     transition: .3s;
-}
+}*/
 /*footer*/
 footer{
     background-color: #202025;
@@ -401,7 +403,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 7rem;
+    padding: 0 6%;
 }
 footer a{
     color: white;

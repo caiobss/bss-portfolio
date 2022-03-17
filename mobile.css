@@ -20,6 +20,13 @@
         }
     }
     @media (max-width:1080px){
+        header{
+            background-image: linear-gradient(
+            rgb(114, 110, 179),
+            rgb(38, 41, 58)50%,
+            rgb(114, 110, 179)
+            );
+        }
         .banner{
             width: 80%;
             top: 40%;
@@ -29,7 +36,10 @@
             font-size: 2rem;
         }
         .txt-banner legend{
-            font-size: 1.3rem;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 2px rgb(0, 0, 0);
+            font-weight: 500;
+            font-size: 2rem;
         }
         .txt-banner p{
             font-size: 1rem;
@@ -45,8 +55,8 @@
             display: none;
         }
         .img-wrapper{
-            background-color: rgb(187, 203, 207);
             background-image: url(/imgs/banner-site-mobile.png);
+            opacity: .9;
             background-attachment: fixed;
             background-size: cover;
         }
@@ -112,7 +122,7 @@
         .social-media{
             position: absolute;
             left: 50%;
-            top: 85%;
+            top: 78%;
             transform: translate(-50%);
             width: 80%;
             height: 100%;
@@ -228,6 +238,11 @@
             width: 20rem;
             height: 20rem;
             margin: 1rem 1rem;
+        }
+        .button-up{
+            height: 2.5rem;
+            width: 2.5rem;
+            right: 4%;
         }
     }
     @media (max-width:1005px), (max-height:582px){

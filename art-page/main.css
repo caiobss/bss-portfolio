@@ -1,97 +1,146 @@
-body{
-    background-color: rgb(223, 219, 219);
+body {
+  overflow: hidden;
+  background-color: #dfdbdb;
 }
-.seta-voltar{
-    background-color: #b372f0;
-    color: white;
-    padding: 1rem;
-    border-radius: 20px 0 20px;
-    position: absolute;
-    cursor: pointer;
+
+.seta-voltar {
+  background-color: #b372f0;
+  color: white;
+  padding: 1rem;
+  border-radius: 20px 0 20px;
+  position: absolute;
+  cursor: pointer;
 }
-.arte-icon{
-    display: flex;
-    justify-content: center;
+
+.arte-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.bnt-arte-info{
-    background-color: #d1cbd6;
-    width: 18rem;
-    height: 100%;
-    padding: .4rem;
-    color: rgb(63, 59, 59);
-    border-radius: 15px 15px 0 0;
-    border: none;
-    display: none;
+
+.bnt-arte-info {
+  background-color: #d1cbd6;
+  width: 18rem;
+  height: 100%;
+  padding: .4rem;
+  color: #3f3b3b;
+  border-radius: 15px 15px 0 0;
+  border: none;
+  display: none;
 }
-.seta-voltar i{
-    font-size: 1.3rem;
+
+.seta-voltar i {
+  font-size: 1.3rem;
 }
-.seta-voltar span{
-    display: none;
-    background-color: #3f4149;
-    position: absolute;
-    height: 3rem;
-    width: 4rem;
-    left: 100%;
-    top: 0%;
-    text-align: center;
-    border-radius: 0 0 20px;
+
+.seta-voltar span {
+  display: none;
+  background-color: #3f4149;
+  position: absolute;
+  height: 2.3rem;
+  width: 4rem;
+  left: 100%;
+  top: 0%;
+  text-align: center;
+  border-radius: 0 0 20px;
 }
-.seta-voltar:hover span{
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.seta-voltar:hover span {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.background-art{
-    background-color: rgb(224, 224, 224);
-    height: 95vh;
-    width: 70vw;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-    display: flex;
-    animation: exibir-arte 1s;
+
+.background-art {
+  background-color: #e0e0e0;
+  height: 95vh;
+  width: 70vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: exibir-arte 1s;
+          animation: exibir-arte 1s;
 }
-@keyframes exibir-arte{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+
+@-webkit-keyframes exibir-arte {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.left{
-    background-color: white;
-    height: 100%;
-    width: 50%;
-    border-radius: 20px 0 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+@keyframes exibir-arte {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.left-txt{
-    width: 60%;
+
+.left {
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  border-radius: 20px 0 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.left-txt h1{
-    margin-bottom: 1rem;
+
+.left-txt {
+  width: 60%;
 }
-.right{
-    background-color: #ffffff;
-    height: 100%;
-    width: 50%;
-    border-radius: 0 20px 20px 0;
+
+.left-txt h1 {
+  margin-bottom: 1rem;
 }
-.arte-img{
-    height: 100%;
-    width: 100%;
+
+.right {
+  background-color: #ffffff;
+  height: 100%;
+  width: 50%;
+  border-radius: 0 20px 20px 0;
 }
-.arte-img img{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    border-radius: 0 20px 20px 0;
-} 
+
+.arte-img {
+  height: 100%;
+  width: 100%;
+}
+
+.arte-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 0 20px 20px 0;
+}
+/*# sourceMappingURL=main.css.map */

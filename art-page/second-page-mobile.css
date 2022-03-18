@@ -6,7 +6,7 @@
     .background-art{
         background-color: white;
         flex-direction: column-reverse;
-        height: 100vh;
+        height: 100%;
         width: 100vw;
     }
     .right{
@@ -26,7 +26,7 @@
         transform: translate(-50%, -50%);
         color: rgb(0, 0, 0);
         border-radius: 0;
-        z-index: 100;
+        z-index: 1000;
     }
     .left-txt{
         font-size: .8rem;
@@ -39,7 +39,6 @@
         z-index: 1000;
         left: 0%;
         top: 0%;
-
         border-radius:  0 0  20px 0;
     }
     .seta-voltar span{

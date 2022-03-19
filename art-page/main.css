@@ -9,10 +9,13 @@ body {
   padding: 1rem;
   border-radius: 20px 0 20px;
   position: absolute;
+  top: 0%;
   cursor: pointer;
+  z-index: 10000;
 }
 
 .arte-icon {
+  /*barra inferior*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,14 +25,28 @@ body {
 }
 
 .bnt-arte-info {
+  position: absolute;
   background-color: #d1cbd6;
-  width: 18rem;
-  height: 100%;
+  width: 19rem;
+  height: 3.5rem;
   padding: .4rem;
   color: #3f3b3b;
   border-radius: 15px 15px 0 0;
   border: none;
   display: none;
+  z-index: 10000;
+  bottom: 0%;
+}
+
+.arte-icon button i::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  content: url(/imgs/angle-down-solid.svg);
+  height: 1rem;
+  width: 1rem;
 }
 
 .seta-voltar i {
@@ -114,6 +131,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  z-index: 100;
 }
 
 .left-txt {

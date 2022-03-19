@@ -1,0 +1,74 @@
+/*responsivo da página focada nas artes*/
+@media (orientation:portrait){
+    @media (max-width:999px){
+        .body-art{
+            background-color: white;
+        }
+        .background-art{
+            background-color: white;
+            flex-direction: column-reverse;
+            height: 100vh;
+            width: 100vw;
+        }
+        .right{
+            position: absolute;
+            margin-top: 1rem ;
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+        .left{
+            position: absolute;
+            background-color: rgb(255, 255, 255);
+            top: 200%;
+            left: 50%;
+            width: 100%;
+            max-height: 80%;
+            transform: translate(-50%, -50%);
+            color: rgb(0, 0, 0);
+            border-radius: 0;
+        }
+        .mostre-down-bar .left{
+            top: 60%;
+        }
+        .left-txt{
+            font-size: .8rem;
+        }
+        .arte-img{
+            height: 100%;
+            width: 100%;
+        }
+        .arte-img img{
+            object-fit: contain;
+            border-radius: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .seta-voltar{
+            z-index: 1000;
+            left: 0%;
+            top: 0%;
+            border-radius:  0 0  20px 0;
+        }
+        .seta-voltar span{
+            height: 2rem;
+            width: 4rem;
+        }
+        .arte-icon button{
+            display: block;
+        }
+        .mostre-down-bar .bnt-arte-info{
+            top: 20%;
+            border-radius: 0 0 15px 15px ;
+        }
+        .mostre-down-bar .arte-icon button i::after{
+            content: url(/imgs/angle-up-solid.svg);
+        }
+    }
+}
+@media (orientation: landscape){
+    .left-txt{
+        width: 75%;
+        font-size: .7rem;
+    }
+}

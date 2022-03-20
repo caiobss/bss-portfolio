@@ -1,74 +1,80 @@
+@charset "UTF-8";
 /*responsivo da página focada nas artes*/
-@media (orientation:portrait){
-    @media (max-width:999px){
-        .body-art{
-            background-color: white;
-        }
-        .background-art{
-            background-color: white;
+@media (orientation: portrait) and (max-width: 999px) {
+  .body-art {
+    background-color: white;
+  }
+  .background-art {
+    background-color: white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-            height: 100vh;
-            width: 100vw;
-        }
-        .right{
-            position: absolute;
-            margin-top: 1rem ;
-            width: 100%;
-            height: 100%;
-            border-radius: 0;
-        }
-        .left{
-            position: absolute;
-            background-color: rgb(255, 255, 255);
-            top: 150%;
-            left: 50%;
-            width: 100%;
-            height: 100%;
+    height: 100vh;
+    width: 100vw;
+  }
+  .right {
+    position: absolute;
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .left {
+    position: absolute;
+    background-color: white;
+    top: 150%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-            color: rgb(0, 0, 0);
-            border-radius: 0;
-        }
-        .mostre-down-bar .left{
-            top: 50%;
-        }
-        .left-txt{
-            font-size: .8rem;
-        }
-        .arte-img{
-            height: 100%;
-            width: 100%;
-        }
-        .arte-img img{
-            object-fit: contain;
-            border-radius: 0;
-            height: 100%;
-            width: 100%;
-        }
-        .seta-voltar{
-            z-index: 1000;
-            left: 0%;
-            top: 0%;
-            border-radius:  0 0  20px 0;
-        }
-        .seta-voltar span{
-            height: 2rem;
-            width: 4rem;
-        }
-        .arte-icon button{
-            display: block;
-        }
-        .mostre-down-bar .bnt-arte-info{
-            top: 10%;
-            border-radius: 15px ;
-        }
-        .mostre-down-bar .arte-icon button i::after{
-            content: url(/imgs/angle-up-solid.svg);
-        }
-    }
+    color: black;
+    border-radius: 0;
+  }
+  .mostre-down-bar .left {
+    top: 50%;
+  }
+  .left-txt {
+    font-size: .8rem;
+  }
+  .arte-img {
+    height: 100%;
+    width: 100%;
+  }
+  .arte-img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .seta-voltar {
+    z-index: 1000;
+    left: 0%;
+    top: 0%;
+    border-radius: 0 0  20px 0;
+  }
+  .seta-voltar span {
+    height: 2rem;
+    width: 4rem;
+  }
+  .arte-icon button {
+    display: block;
+  }
+  .mostre-down-bar .bnt-arte-info {
+    top: 10%;
+    border-radius: 15px;
+  }
+  .mostre-down-bar .arte-icon button i::after {
+    content: url(/imgs/angle-up-solid.svg);
+  }
 }
-@media (orientation: landscape){
-    .left-txt{
-        width: 75%;
-        font-size: .7rem;
-    }
+
+@media (orientation: landscape) and (max-width: 999px) {
+  .left-txt {
+    width: 75%;
+    font-size: .7rem;
+  }
 }
+/*# sourceMappingURL=second-page-mobile.css.map */

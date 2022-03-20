@@ -27,7 +27,7 @@ body {
 .bnt-arte-info {
   position: absolute;
   background-color: #d1cbd6;
-  width: 19rem;
+  width: 80%;
   height: 3.5rem;
   padding: .4rem;
   color: #3f3b3b;
@@ -114,7 +114,6 @@ body {
 }
 
 .left {
-  position: absolute;
   background-color: white;
   height: 100%;
   width: 50%;

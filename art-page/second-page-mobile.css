@@ -58,8 +58,8 @@
             display: block;
         }
         .mostre-down-bar .bnt-arte-info{
-            top: 20%;
-            border-radius: 0 0 15px 15px ;
+            top: 10%;
+            border-radius: 15px ;
         }
         .mostre-down-bar .arte-icon button i::after{
             content: url(/imgs/angle-up-solid.svg);

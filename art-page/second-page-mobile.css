@@ -2,6 +2,7 @@
 /*responsivo da página focada nas artes*/
 @media (orientation: portrait) and (max-width: 999px) {
   .body-art {
+    overflow: hidden;
     position: relative;
     background-color: white;
     height: 100vh;

@@ -2,7 +2,10 @@
 /*responsivo da página focada nas artes*/
 @media (orientation: portrait) and (max-width: 999px) {
   .body-art {
+    position: relative;
     background-color: white;
+    height: 100vh;
+    width: 100vw;
   }
   .background-art {
     background-color: white;
@@ -10,8 +13,8 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
   }
   .arte-icon {
     /*barra inferior*/
@@ -54,18 +57,16 @@
   }
   .left {
     position: absolute;
-    background-color: white;
-    top: 150%;
-    left: 50%;
     height: 100%;
     width: 100%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
     color: black;
     border-radius: 0;
+    opacity: 0;
+    visibility: hidden;
   }
   .mostre-down-bar .left {
-    top: 50%;
+    opacity: 1;
+    visibility: visible;
   }
   .left-txt {
     font-size: .8rem;

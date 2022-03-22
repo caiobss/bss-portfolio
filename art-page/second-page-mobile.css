@@ -2,10 +2,7 @@
 /*responsivo da página focada nas artes*/
 @media (orientation: portrait) and (max-width: 999px) {
   .body-art {
-    position: relative;
     background-color: white;
-    height: 100vh;
-    width: 100vw;
   }
   .background-art {
     background-color: white;
@@ -13,8 +10,8 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
   }
   .arte-icon {
     /*barra inferior*/

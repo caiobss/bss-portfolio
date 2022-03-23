@@ -2,7 +2,6 @@
 /*responsivo da página focada nas artes*/
 @media (orientation: portrait) and (max-width: 999px) {
   .body-art {
-    overflow: scroll;
     position: relative;
     background-color: white;
     max-height: 100vh;
@@ -111,10 +110,27 @@
   }
 }
 
-@media (orientation: landscape) and (max-width: 999px) {
+@media (orientation: landscape) and (max-width: 1200px) {
+  .background-art {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+  }
+  .left {
+    border-radius: 0;
+  }
+  .right {
+    border-radius: 0;
+  }
   .left-txt {
     width: 75%;
     font-size: .7rem;
+  }
+  .arte-img img {
+    border-radius: 0;
+  }
+  .seta-voltar {
+    border-radius: 0 0 20px;
   }
 }
 /*# sourceMappingURL=second-page-mobile.css.map */

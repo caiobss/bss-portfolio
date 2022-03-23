@@ -2,21 +2,20 @@
 @media (orientation: portrait){
     @media (max-width:1180px){
         .banner{
-            top: 35%;
             width: 60%;
-            height: 10%;
+            height: 0%;
         }
         .img-wrapper img{
             width: 100%;
         }
         .txt-banner h1{
-            font-size: 3rem;
+            font-size: 2rem;
         }
         .txt-banner legend{
-            font-size: 1rem;
+            font-size: .5rem;
         }
         .txt-banner p{
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
     }
     @media (max-width:1080px){
@@ -248,19 +247,21 @@
     @media (max-width:1005px), (max-height:582px){
         .side-bar .menu{
             margin-top: 4rem;
-            font-size: 1.5rem;
-            line-height: 230%;
+            font-size: .9rem;
+            line-height: 300%;
         }
         .side-bar .menu .artes-bnt .bnt{
             font-size: 1rem;
             padding: .8rem 1.5rem;
         }
         .hamburguer{
-            padding: 1%;
+            padding: .5%;
         }
         .hamburguer span{
+            height: 1.5rem;
+            width: 6rem;
             left: 105%;
-            top: 10%;
+            top: 9%;
         }
         
     }

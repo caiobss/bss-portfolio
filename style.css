@@ -14,6 +14,7 @@
 }
 
 body {
+  height: -webkit-fill-available;
   overflow-x: hidden;
 }
 
@@ -27,6 +28,7 @@ header {
 }
 
 html {
+  height: -webkit-fill-available;
   scroll-behavior: smooth;
 }
 

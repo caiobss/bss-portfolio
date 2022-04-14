@@ -1,14 +1,11 @@
 @charset "UTF-8";
 /*responsivo da página focada nas artes*/
 @media (orientation: portrait) and (max-width: 999px) {
-  html {
-    height: -webkit-fill-available;
-  }
   .body-art {
-    height: -webkit-fill-available;
     position: relative;
     background-color: white;
-    height: 100vh;
+    max-height: 100vh;
+    min-height: 90vh;
     width: 100%;
   }
   .allpage {
@@ -41,7 +38,7 @@
     height: 3.5rem;
     padding: .4rem;
     color: #3f3b3b;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px;
     border: none;
     display: none;
     z-index: 10000;

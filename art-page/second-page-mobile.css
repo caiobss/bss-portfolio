@@ -1,7 +1,11 @@
 @charset "UTF-8";
 /*responsivo da página focada nas artes*/
 @media (orientation: portrait) and (max-width: 999px) {
+  html {
+    height: -webkit-fill-available;
+  }
   .body-art {
+    height: -webkit-fill-available;
     position: relative;
     background-color: white;
     height: 100vh;

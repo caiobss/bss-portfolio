@@ -1,7 +1,11 @@
 /*responsivo da página focada nas artes*/
 @media (orientation:portrait){
     @media (max-width:999px){
+        html{
+            height: -webkit-fill-available;
+        }
         .body-art{
+            height: -webkit-fill-available;
             position: relative;
             background-color: white;
             height: 100vh;
@@ -9,7 +13,7 @@
         }
         .allpage{
             height: 100%;
-            width: 100%;
+            width: 100%; 
         }
         .background-art{
             position: absolute;

@@ -1,4 +1,8 @@
+html{
+    height: -webkit-fill-available;
+}
 body{
+    height: -webkit-fill-available;
     overflow: hidden;
     background-color: rgb(223, 219, 219);
 }
@@ -33,6 +37,7 @@ body{
     align-items: center;
 }
 .background-art{
+    height: -webkit-fill-available;
     background-color: rgb(255, 255, 255);
     height: 95vh;
     width: 70vw;

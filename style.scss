@@ -9,19 +9,22 @@
 :root{
     --background1: rgb(179, 114, 240);
 }
+html{
+    height: -webkit-fill-available;
+    scroll-behavior: smooth;
+}
 body{
+    height: -webkit-fill-available;
     overflow-x: hidden;
 }
 header{
+    height: -webkit-fill-available;
     background-color: #ffffff;
     color: black;
     position: relative;
     height: 100vh;
     width: 100%;
     overflow: hidden;
-}
-html{
-    scroll-behavior: smooth;
 }
 .hamburguer{
     background-color: var(--background1);

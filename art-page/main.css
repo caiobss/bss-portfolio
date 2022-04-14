@@ -1,4 +1,9 @@
+html {
+  height: -webkit-fill-available;
+}
+
 body {
+  height: -webkit-fill-available;
   overflow: hidden;
   background-color: #dfdbdb;
 }
@@ -44,6 +49,7 @@ body {
 }
 
 .background-art {
+  height: -webkit-fill-available;
   background-color: white;
   height: 95vh;
   width: 70vw;

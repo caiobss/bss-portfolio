@@ -1,5 +1,4 @@
 /*responsivo da página focada nas artes*/
-@media (orientation:portrait){
   @media (max-width:999px){
       .body-art{
           position: relative;
@@ -99,29 +98,3 @@
           content: url(/imgs/angle-up-solid.svg);
       }
   }
-}
-@media (orientation: landscape){
-  @media (max-width: 1200px) {
-      .background-art{
-          height: 100vh;
-          width: 100vw;
-          border-radius: 0;
-      }
-      .left{
-          border-radius: 0;
-      }
-      .right{
-          border-radius: 0;
-      }
-      .left-txt{
-          width: 75%;
-          font-size: .7rem;
-      }
-      .arte-img img{
-          border-radius: 0;
-      }
-      .seta-voltar{
-          border-radius: 0 0 20px ;
-      }
-  }
-}

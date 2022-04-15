@@ -4,6 +4,7 @@
         .banner{
             width: 60%;
             height: 0%;
+            text-align: center;
         }
         .img-wrapper img{
             width: 100%;
@@ -21,9 +22,9 @@
     @media (max-width:1080px){
         header{
             background-image: linear-gradient(
-            rgb(114, 110, 179),
-            rgb(38, 41, 58)50%,
-            rgb(114, 110, 179)
+                rgb(128, 50, 180),
+                rgb(48, 46, 46),
+                rgb(128, 50, 180)
             );
         }
         .banner{

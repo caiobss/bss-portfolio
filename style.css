@@ -206,10 +206,10 @@ header {
 .banner {
   position: absolute;
   top: 50%;
-  left: 5%;
-  -webkit-transform: translate(0%, -50%);
-          transform: translate(0%, -50%);
-  width: 55%;
+  left: 10%;
+  -webkit-transform: translate(-10%, -50%);
+          transform: translate(-10%, -50%);
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,7 +222,7 @@ header {
 }
 
 .txt-banner h1 {
-  font-size: 4rem;
+  font-size: 4.2rem;
   font-weight: bold;
   margin-bottom: 2rem;
   -webkit-animation: exibir-banner 1s .2s forwards;
@@ -233,14 +233,14 @@ header {
 .txt-banner legend {
   -webkit-animation: exibir-banner 1s .3s forwards;
           animation: exibir-banner 1s .3s forwards;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   opacity: 0;
   color: #e63e3e;
   margin-bottom: 1rem;
 }
 
 .txt-banner p {
-  font-size: 2rem;
+  font-size: 2.2rem;
   -webkit-animation: exibir-banner 1s .4s forwards;
           animation: exibir-banner 1s .4s forwards;
   opacity: 0;
@@ -354,7 +354,7 @@ header {
 
 .artes {
   height: 80%;
-  width: 95%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

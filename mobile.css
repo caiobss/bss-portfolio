@@ -2,11 +2,38 @@
 @media (orientation: portrait){
     @media (max-width:1180px){
         .banner{
-            width: 60%;
+            text-align: center;
+            width: 100%;
             height: 0%;
+        }
+        .txt-banner{
+            padding: .5rem;
+        }
+        .buttons{
+            justify-content: center;
+        }
+        header{
+            background-image: linear-gradient(
+                rgb(128, 50, 180),
+                rgb(48, 46, 46),
+                rgb(128, 50, 180)
+            );
+        }
+        .banner{
+            top: 40%;
+            color: white;
         }
         .img-wrapper img{
             width: 100%;
+        }
+        .img-wrapper img{
+            display: none;
+        }
+        .img-wrapper{
+            background-image: url(/imgs/banner-site-mobile.png);
+            opacity: .9;
+            background-attachment: fixed;
+            background-size: cover;
         }
         .txt-banner h1{
             font-size: 2rem;
@@ -19,18 +46,6 @@
         }
     }
     @media (max-width:1080px){
-        header{
-            background-image: linear-gradient(
-                rgb(128, 50, 180),
-                rgb(48, 46, 46),
-                rgb(128, 50, 180)
-            );
-        }
-        .banner{
-            width: 80%;
-            top: 40%;
-            color: white;
-        }
         .txt-banner h1{
             font-size: 2rem;
         }
@@ -50,17 +65,8 @@
             width: 60%;
             right: -100rem;
         }
-        .img-wrapper img{
-            display: none;
-        }
-        .img-wrapper{
-            background-image: url(/imgs/banner-site-mobile.png);
-            opacity: .9;
-            background-attachment: fixed;
-            background-size: cover;
-        }
     }
-    @media (max-width:850px){
+    @media (max-width:950px){
         .sessao-artes{
             height: 0%;
         }
@@ -73,11 +79,15 @@
             height: 30rem;
             margin: 1rem 1rem;
         }
+        .txt-banner h1{
+            font-size: 4rem;
+        }
+        .txt-banner p{
+            margin-top: 5rem;
+            font-size: 2rem;
+        }
     }
     @media (max-width:735px){
-        .banner{
-            width: 90%;
-        }
         .copyright{
             font-size: .9rem;
         }
@@ -201,9 +211,6 @@
 /*responsivo do home horizontal*/
 @media (orientation:landscape){
     @media (max-width: 1150px) {
-        header{
-            height: 110vh;
-        }
         header .img-wrapper img{
             object-fit: fixed;
         }
@@ -212,7 +219,7 @@
         }
         .img-wrapper img{
             width: 105%;
-            height: 120%;
+            height: 100%;
         }
         .banner h1{
             font-size: 2.8rem;
@@ -273,7 +280,7 @@
     }
     @media (max-width:735px){
         .banner{
-            width: 90%;
+            width: 80%;
         }
         .copyright{
             font-size: .9rem;

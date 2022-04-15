@@ -1,146 +1,127 @@
-@charset "UTF-8";
 /*responsivo da página focada nas artes*/
-@media (orientation: portrait) and (max-width: 999px) {
-  html {
-    height: -webkit-fill-available;
-  }
-  .body-art {
-    height: -webkit-fill-available;
-    position: relative;
-    background-color: white;
-    max-height: 100vh;
-    min-height: 90vh;
-    width: 100%;
-  }
-  .allpage {
-    height: 100%;
-    width: 100%;
-  }
-  .background-art {
-    height: -webkit-fill-available;
-    position: absolute;
-    background-color: white;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    height: 100%;
-    width: 100%;
-  }
-  .arte-icon {
-    /*barra inferior*/
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .bnt-arte-info {
-    position: absolute;
-    background-color: #d1cbd6;
-    width: 80%;
-    height: 3.5rem;
-    padding: .4rem;
-    color: #3f3b3b;
-    border-radius: 15px 15px 0 0;
-    border: none;
-    display: none;
-    z-index: 10000;
-    bottom: 0%;
-  }
-  .arte-icon button i::after {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    content: url(/imgs/angle-down-solid.svg);
-    height: 1rem;
-    width: 1rem;
-  }
-  .right {
-    position: absolute;
-    margin-top: 1rem;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
-  .left {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color: black;
-    border-radius: 0;
-    opacity: 0;
-    visibility: hidden;
-  }
-  .mostre-down-bar .left {
-    opacity: 1;
-    visibility: visible;
-  }
-  .left-txt {
-    font-size: .8rem;
-  }
-  .arte-img {
-    height: 100%;
-    width: 100%;
-  }
-  .arte-img img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    border-radius: 0;
-    height: 100%;
-    width: 100%;
-  }
-  .seta-voltar {
-    z-index: 1000;
-    left: 0%;
-    top: 0%;
-    border-radius: 0 0  20px 0;
-  }
-  .seta-voltar span {
-    height: 2rem;
-    width: 4rem;
-  }
-  .arte-icon button {
-    display: block;
-  }
-  .mostre-down-bar .bnt-arte-info {
-    top: 10%;
-    border-radius: 15px;
-  }
-  .mostre-down-bar .arte-icon button i::after {
-    content: url(/imgs/angle-up-solid.svg);
+@media (orientation:portrait){
+  @media (max-width:999px){
+      .body-art{
+          position: relative;
+          background-color: white;
+          max-height: 100vh;
+          min-height: 90vh;
+          width: 100%;
+      }
+      .allpage{
+          height: 100%;
+          width: 100%;
+      }
+      .background-art{
+          position: absolute;
+          background-color: white;
+          flex-direction: column-reverse;
+          height: 100%;
+          width: 100%;
+      }
+      .arte-icon{/*barra inferior*/
+          display: flex;
+          justify-content: center;
+      }
+      .bnt-arte-info{
+          position: absolute;
+          background-color: #d1cbd6;
+          width: 80%;
+          height: 3.5rem;
+          padding: .4rem;
+          color: rgb(63, 59, 59);
+          border-radius: 15px 15px 0 0;
+          border: none;
+          display: none;
+          z-index: 10000;
+          bottom: 0%;
+      }
+      .arte-icon button i::after{
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          content: url(/imgs/angle-down-solid.svg);
+          height: 1rem;
+          width: 1rem;
+      }
+      .right{
+          position: absolute;
+          margin-top: 1rem ;
+          width: 100%;
+          height: 100%;
+          border-radius: 0;
+      }
+      .left{
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          color: rgb(0, 0, 0);
+          border-radius: 0;
+          opacity: 0;
+          visibility: hidden;
+      }
+      .mostre-down-bar .left{
+          opacity: 1;
+          visibility: visible;
+      }
+      .left-txt{
+          font-size: .8rem;
+      }
+      .arte-img{
+          height: 100%;
+          width: 100%;
+      }
+      .arte-img img{
+          object-fit: contain;
+          border-radius: 0;
+          height: 100%;
+          width: 100%;
+      }
+      .seta-voltar{
+          z-index: 1000;
+          left: 0%;
+          top: 0%;
+          border-radius:  0 0  20px 0;
+      }
+      .seta-voltar span{
+          height: 2rem;
+          width: 4rem;
+      }
+      .arte-icon button{
+          display: block;
+      }
+      .mostre-down-bar .bnt-arte-info{
+          top: 10%;
+          border-radius: 15px ;
+      }
+      .mostre-down-bar .arte-icon button i::after{
+          content: url(/imgs/angle-up-solid.svg);
+      }
   }
 }
-
-@media (orientation: landscape) and (max-width: 1200px) {
-  html {
-    height: -webkit-fill-available;
-  }
-  .background-art {
-    height: -webkit-fill-available;
-    height: calc(100vh - 200px);
-    height: 100vh;
-    width: 100vw;
-    border-radius: 0;
-  }
-  .left {
-    border-radius: 0;
-  }
-  .right {
-    border-radius: 0;
-  }
-  .left-txt {
-    width: 75%;
-    font-size: .7rem;
-  }
-  .arte-img img {
-    border-radius: 0;
-  }
-  .seta-voltar {
-    border-radius: 0 0 20px;
+@media (orientation: landscape){
+  @media (max-width: 1200px) {
+      .background-art{
+          height: 100vh;
+          width: 100vw;
+          border-radius: 0;
+      }
+      .left{
+          border-radius: 0;
+      }
+      .right{
+          border-radius: 0;
+      }
+      .left-txt{
+          width: 75%;
+          font-size: .7rem;
+      }
+      .arte-img img{
+          border-radius: 0;
+      }
+      .seta-voltar{
+          border-radius: 0 0 20px ;
+      }
   }
 }
-/*# sourceMappingURL=second-page-mobile.css.map */

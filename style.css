@@ -83,10 +83,10 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  top: .1rem;
-  background-color: #3f4149;
-  color: white;
-  height: 2rem;
+  top: -.1rem;
+  background-color: #d7d4da;
+  color: black;
+  height: 2.5rem;
   width: 8rem;
   opacity: 0;
   -webkit-transition: .3s;
@@ -478,7 +478,6 @@ header {
 /*sessao sobre mim*/
 .sessao-sobre-mim {
   background-color: #e7e7e7;
-  height: 180vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -492,8 +491,7 @@ header {
 }
 
 .sobre-mim {
-  height: 95%;
-  width: 95%;
+  width: 94%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,15 +505,14 @@ header {
 }
 
 .mim-info {
-  height: 100%;
-  width: 95%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2% 0;
+  margin: 5% 0;
 }
 
 .mim-info:nth-child(2) {

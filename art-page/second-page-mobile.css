@@ -3,7 +3,8 @@
       .body-art{
           position: relative;
           background-color: white;
-          height: 100vh;
+          max-height: 100vh;
+          min-height: 85vh;
           width: 100%;
       }
       .allpage{

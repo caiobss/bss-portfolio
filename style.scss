@@ -59,14 +59,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -.1rem;
-    background-color: rgb(215, 212, 218);
-    color: rgb(0, 0, 0);
+    top: -60%;
+    background-color: #4a4a5a;
+    color: rgb(255, 255, 255);
     height: 2.5rem;
     width: 8rem;
     opacity: 0;
     transition: .3s;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 10px 10px 0;
 }
 .hamburguer div{
     background-color: #f1f1f1f1;
@@ -260,6 +260,23 @@ header{
     color: rgb(217, 231, 14);
     border-radius: 10px 0 10px 0 ;
     padding: .5rem 1.1rem;
+    transition: .3s;
+}
+.artes .arte i:hover::after{
+    content: attr(data-star);
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    background-color: #4a4a5a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7rem;
+    border-radius: 0 10px  10px;
 }
 .arte img{
     object-fit: contain;

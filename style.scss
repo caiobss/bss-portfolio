@@ -233,7 +233,7 @@ header{
     justify-content: center;
 }
 .header-txt{
-    margin-top: 1rem;
+    margin: 1rem 0;
     text-align: center;
 }
 .artes{
@@ -338,6 +338,9 @@ header{
 .mim-info:nth-child(2){
     flex-direction: row-reverse;
 }
+.mim-info:nth-child(4){
+    flex-direction: row-reverse;
+}
 .img-sobre-mim{
     background-color: #ffffff;
     height: 100%;
@@ -352,6 +355,9 @@ header{
     width: 60%;
     max-height: 20rem;
     margin-left: 1rem;
+}
+.text-sobre-mim p{
+    padding-right: 1rem;
 }
 /*botão que leva para o começo da página*/
 
@@ -394,6 +400,24 @@ header{
     opacity: 1;
     transition: .3s;
 }*/
+/*google maps*/
+.sessao-local{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0;
+}
+.sessao-local .google-maps{
+    height: 100%;
+    width: 100%;
+}
+.google-maps iframe{
+    height: 100%;
+    width: 100%;
+}
 /*footer*/
 footer{
     background-color: #202025;

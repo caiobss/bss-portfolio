@@ -175,6 +175,9 @@
         .mim-info:nth-child(2){
             flex-direction: column;
         }
+        .mim-info:nth-child(4){
+            flex-direction: column;
+        }
         .img-sobre-mim{
             margin-bottom: 1rem;
             width: 90%;
@@ -182,6 +185,9 @@
         }
         .text-sobre-mim{
             width: 95%;
+        }
+        .text-sobre-mim p{
+            padding: 0%;
         }
         .button-up{
             height: 2.5rem;

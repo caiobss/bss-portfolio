@@ -42,7 +42,7 @@ header{
     transition: .5s;
 }
 .mostre-side-bar .hamburguer{
-    right: 26%;
+    right: 23%;
 }
 .mostre-side-bar .line:nth-child(1){
     transform: rotate(42deg) translate(.1rem, .2rem);
@@ -86,7 +86,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 35%;
+    width: 30%;
     top: 0%;
     right: -150rem;
     transition: .3s;
@@ -99,9 +99,9 @@ header{
     justify-content: center;
     height: 100%;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.1rem;
     text-decoration: none;
-    line-height: 5rem;
+    line-height: 4.5rem;
     margin-bottom: 10%;
 }
 .mostre-side-bar .side-bar{
@@ -118,7 +118,7 @@ header{
     background-color: #d192f7;
     color: #ffffff;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 5rem;
     padding: .5rem;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.562);
     cursor: pointer;
@@ -129,7 +129,8 @@ header{
     color: black;
 }
 .artes-bnt .bnt{
-    padding: 1rem 2rem;
+    font-size: 1rem;
+    padding: 1rem;
     color: white;   
 }
 .img-wrapper{
@@ -350,12 +351,15 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    margin: 5% 0;
+    margin: 4% 0;
 }
 .mim-info:nth-child(2){
     flex-direction: row-reverse;
 }
 .mim-info:nth-child(4){
+    flex-direction: row-reverse;
+}
+.mim-info:nth-child(6){
     flex-direction: row-reverse;
 }
 .img-sobre-mim{
@@ -380,23 +384,22 @@ header{
 
 .button-up{
     position: fixed;
-    background-color: rgb(179, 114, 240);
+    background-color: var(--background1);
     text-decoration: none;
     color: white;
-    height: 3.1rem;
-    width: 3.1rem;
+    padding: .7rem;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 50;
-    right: 3%;
-    bottom: 10%;
-    border-radius: 100%;
+    right: 2rem;
+    bottom: 6%;
+    border-radius: 5px;
     box-shadow: 1px 1px 1px black;
     cursor: pointer;
 }
 .button-up i{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 /*.button-up[data-voltar]::after{
     position: absolute;
@@ -417,6 +420,62 @@ header{
     opacity: 1;
     transition: .3s;
 }*/
+/*sessão de projetos*/
+.sessao-projetos{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projetos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projeto{
+    position: relative;
+    height: 33rem;
+    width: 21rem;
+    border-radius: 10px;
+}
+.projeto-img{
+    background-color: #202025;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.projeto-img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: .3s;
+}
+.projeto .projeto-txt{
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    opacity: 0;
+    transition: .3s;
+}
+.projeto:hover .projeto-txt{
+    opacity: 1;
+    bottom: 40%;
+}
+.projeto:hover .projeto-img img{
+    opacity: .6;
+}
+.projeto .projeto-txt .bnt{
+    background-color: #d86b7d;
+    font-size: .8rem;
+    padding: 1rem 1.5rem;
+}
+
 /*google maps*/
 .sessao-local{
     height: 65vh;

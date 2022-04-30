@@ -421,7 +421,7 @@ header{
     transition: .3s;
 }*/
 /*sessão de projetos*/
-.sessao-projetos{
+.sessao-estudos{
     margin-top: 2rem;
     width: 100%;
     display: flex;
@@ -429,33 +429,34 @@ header{
     justify-content: center;
     align-items: center;
 }
-.projetos{
+.estudos{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
-.projeto{
+.estudo{
     position: relative;
     height: 33rem;
     width: 21rem;
     border-radius: 10px;
+    margin: 1rem 0;
 }
-.projeto-img{
+.estudo-img{
     background-color: #202025;
     height: 100%;
     width: 100%;
     border-radius: 10px;
 }
-.projeto-img img{
+.estudo-img img{
     object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 10px;
     transition: .3s;
 }
-.projeto .projeto-txt{
+.estudo .estudo-txt{
     padding-left: 1rem;
     position: absolute;
     bottom: 0%;
@@ -463,14 +464,14 @@ header{
     opacity: 0;
     transition: .3s;
 }
-.projeto:hover .projeto-txt{
+.estudo:hover .estudo-txt{
     opacity: 1;
     bottom: 40%;
 }
-.projeto:hover .projeto-img img{
+.estudo:hover .estudo-img img{
     opacity: .6;
 }
-.projeto .projeto-txt .bnt{
+.estudo .estudo-txt .bnt{
     background-color: #d86b7d;
     font-size: .8rem;
     padding: 1rem 1.5rem;

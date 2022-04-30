@@ -57,6 +57,20 @@
             width: 60%;
             right: -100rem;
         }
+        .estudos{
+            flex-direction: column;
+        }
+        .estudo{
+            width: 92%;
+        }
+        .estudo .estudo-txt{
+            bottom: 40%;
+            opacity: 1;
+        }
+        .estudo:hover .estudo-img img{
+            opacity: .6;
+        }
+
     }
     @media (max-width:950px){
         .sessao-artes{
@@ -253,6 +267,17 @@
         }
         .mim-info{
             margin: 9% 0;
+        }
+        .estudo{
+            width: 92%;
+            height: 25rem;
+        }
+        .estudo .estudo-txt{
+            bottom: 40%;
+            opacity: 1;
+        }
+        .estudo:hover .estudo-img img{
+            opacity: .6;
         }
     }
     @media (max-width:1005px), (max-height:582px){

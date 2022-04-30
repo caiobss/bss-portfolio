@@ -66,7 +66,7 @@ header{
     width: 8rem;
     opacity: 0;
     transition: .3s;
-    border-radius: 10px 10px 10px 0;
+    border-radius: 10px;
 }
 .hamburguer div{
     background-color: #f1f1f1f1;
@@ -97,12 +97,12 @@ header{
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
     font-size: 1.1rem;
     text-decoration: none;
-    line-height: 4.5rem;
-    margin-bottom: 10%;
+    line-height: 10vh;
 }
 .mostre-side-bar .side-bar{
     right: 0;
@@ -110,15 +110,15 @@ header{
 .social-media{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
+    width: 60%;
+    justify-content: space-evenly;
 }
 .social-media i{
     display: none;
     background-color: #d192f7;
     color: #ffffff;
     border-radius: 50%;
-    font-size: 5rem;
+    font-size: 1.5rem;
     padding: .5rem;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.562);
     cursor: pointer;
@@ -438,10 +438,9 @@ header{
 }
 .estudo{
     position: relative;
-    height: 33rem;
-    width: 21rem;
+    height: 77vh;
+    width: 25vw;
     border-radius: 10px;
-    margin: 1rem 0;
 }
 .estudo-img{
     background-color: #202025;
@@ -464,9 +463,12 @@ header{
     opacity: 0;
     transition: .3s;
 }
+.estudo .estudo-txt legend{
+    padding: 2rem 0;
+}
 .estudo:hover .estudo-txt{
     opacity: 1;
-    bottom: 40%;
+    bottom: 25%;
 }
 .estudo:hover .estudo-img img{
     opacity: .6;

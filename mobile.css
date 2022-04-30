@@ -61,6 +61,7 @@
             flex-direction: column;
         }
         .estudo{
+            margin: 1rem 0;
             width: 92%;
         }
         .estudo .estudo-txt{
@@ -130,14 +131,12 @@
         .social-media{
             position: absolute;
             left: 50%;
-            top: 78%;
-            transform: translate(-50%);
-            width: 80%;
+            top: 100%;
+            transform: translate(-50%, -12%);
             height: 100%;
         }
         .social-media i{
             display: block;
-            font-size: 1.5rem;
         }
         .buttons i{
             display: none;
@@ -227,8 +226,9 @@
     }
     @media (max-width: 1300px){
         .estudo{
+            margin: 1rem 0;
             width: 92%;
-            height: 25rem;
+            height: 65vh;
         }
         .estudo .estudo-txt{
             bottom: 40%;

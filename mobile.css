@@ -225,6 +225,19 @@
     body{
         height: -webkit-fill-available;
     }
+    @media (max-width: 1300px){
+        .estudo{
+            width: 92%;
+            height: 25rem;
+        }
+        .estudo .estudo-txt{
+            bottom: 40%;
+            opacity: 1;
+        }
+        .estudo:hover .estudo-img img{
+            opacity: .6;
+        }
+    }
     @media (max-width: 1150px) {
         header .img-wrapper img{
             object-fit: fixed;
@@ -267,17 +280,6 @@
         }
         .mim-info{
             margin: 9% 0;
-        }
-        .estudo{
-            width: 92%;
-            height: 25rem;
-        }
-        .estudo .estudo-txt{
-            bottom: 40%;
-            opacity: 1;
-        }
-        .estudo:hover .estudo-img img{
-            opacity: .6;
         }
     }
     @media (max-width:1005px), (max-height:582px){

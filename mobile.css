@@ -86,6 +86,28 @@
             height: 30rem;
             margin: 1rem 1rem;
         }
+        .mim-info{
+            flex-direction: column;
+            margin: 9% 0;
+        }
+        .mim-info:nth-child(2){
+            flex-direction: column;
+        }
+        .mim-info:nth-child(4){
+            flex-direction: column;
+        }
+        .mim-info:nth-child(6){
+            flex-direction: column;
+        }
+        .img-sobre-mim{
+            margin-bottom: 1rem;
+            width: 90%;
+            height: 60%;
+        }
+        .text-sobre-mim{
+            width: 95%;
+        }
+
     }
     @media (max-width:735px){
         .copyright{
@@ -115,14 +137,11 @@
             margin-bottom: 3rem;
         }
         .txt-banner p{
-            font-size: 1rem;
+            font-size: .8rem;
         }
         .side-bar{
             width: 100%;
             right: -100rem;
-        }
-        .side-bar .menu{
-            font-size: 1rem;
         }
         .side-bar .menu .bnt{
             padding: 1rem 1rem;
@@ -131,7 +150,7 @@
         .social-media{
             position: absolute;
             left: 50%;
-            top: 100%;
+            top: 95%;
             transform: translate(-50%, -12%);
             height: 100%;
         }
@@ -180,30 +199,6 @@
         .about-me{
             width: 80%;
             text-align: center;
-        }
-        .mim-info{
-            flex-direction: column;
-            margin: 9% 0;
-        }
-        .mim-info:nth-child(2){
-            flex-direction: column;
-        }
-        .mim-info:nth-child(4){
-            flex-direction: column;
-        }
-        .mim-info:nth-child(6){
-            flex-direction: column;
-        }
-        .img-sobre-mim{
-            margin-bottom: 1rem;
-            width: 90%;
-            height: 60%;
-        }
-        .text-sobre-mim{
-            width: 95%;
-        }
-        .text-sobre-mim p{
-            padding: 0%;
         }
         .button-up{
             height: 2.5rem;
@@ -285,12 +280,12 @@
     @media (max-width:1005px), (max-height:582px){
         .side-bar .menu{
             margin-top: 4rem;
-            font-size: .9rem;
-            line-height: 300%;
+            font-size: .8rem;
+            line-height: 3rem;
         }
         .side-bar .menu .artes-bnt .bnt{
             font-size: 1rem;
-            padding: .8rem 1.5rem;
+            padding: .9rem 1.5rem;
         }
         .hamburguer{
             padding: .5%;

@@ -79,15 +79,13 @@ header{
     opacity: 1;
 }
 .side-bar{
-    height: -webkit-fill-available;
     position: fixed;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    height: 80vh;
+    height: 100%;
     width: 30%;
     top: 0%;
     right: -150rem;
@@ -102,7 +100,7 @@ header{
     align-items: center;
     height: 100%;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: .9rem;
     text-decoration: none;
     line-height: 10vh;
 }
@@ -464,6 +462,7 @@ header{
     color: white;
     opacity: 0;
     transition: .3s;
+    font-size: 1.2rem;
 }
 .estudo .estudo-txt legend{
     padding: 2rem 0;

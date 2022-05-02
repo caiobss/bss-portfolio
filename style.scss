@@ -79,6 +79,7 @@ header{
     opacity: 1;
 }
 .side-bar{
+    height: -webkit-fill-available;
     position: fixed;
     background-color: #ffffff;
     display: flex;
@@ -468,7 +469,7 @@ header{
 }
 .estudo:hover .estudo-txt{
     opacity: 1;
-    bottom: 25%;
+    bottom: 30%;
 }
 .estudo:hover .estudo-img img{
     opacity: .6;

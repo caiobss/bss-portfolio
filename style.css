@@ -107,6 +107,7 @@ header {
 }
 
 .side-bar {
+  height: -webkit-fill-available;
   position: fixed;
   background-color: #ffffff;
   display: -webkit-box;
@@ -710,7 +711,7 @@ header {
 
 .estudo:hover .estudo-txt {
   opacity: 1;
-  bottom: 25%;
+  bottom: 30%;
 }
 
 .estudo:hover .estudo-img img {

@@ -79,13 +79,13 @@ header{
     opacity: 1;
 }
 .side-bar{
-    height: -webkit-fill-available;
     position: fixed;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
     height: 100vh;
     width: 30%;
     top: 0%;

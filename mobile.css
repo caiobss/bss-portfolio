@@ -65,11 +65,11 @@
             width: 92%;
         }
         .estudo .estudo-txt{
-            bottom: 40%;
+            bottom: 30%;
             opacity: 1;
         }
-        .estudo:hover .estudo-img img{
-            opacity: .6;
+        .estudo:hover .estudo-txt{
+            bottom: 30%;
         }
 
     }
@@ -223,15 +223,19 @@
         .estudo{
             margin: 1rem 0;
             width: 92%;
-            height: 65vh;
+            height: 70vh;
         }
         .estudo .estudo-txt{
-            bottom: 40%;
+            bottom: 30%;
             opacity: 1;
         }
-        .estudo:hover .estudo-img img{
-            opacity: .6;
+        .estudo .estudo-txt{
+            opacity: 1;
         }
+        .estudo:hover .estudo-txt{
+            bottom: 30%;
+        }
+
     }
     @media (max-width: 1150px) {
         header .img-wrapper img{
@@ -285,7 +289,7 @@
         }
         .side-bar .menu .artes-bnt .bnt{
             font-size: 1rem;
-            padding: .9rem 1.5rem;
+            padding: .4rem 1.5rem;
         }
         .hamburguer{
             padding: .5%;

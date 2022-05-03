@@ -79,6 +79,7 @@ header{
     opacity: 1;
 }
 .side-bar{
+    height: -webkit-fill-available;
     position: fixed;
     background-color: #ffffff;
     display: flex;
@@ -438,7 +439,7 @@ header{
 }
 .estudo{
     position: relative;
-    height: 77vh;
+    height: 65vh;
     width: 25vw;
     border-radius: 10px;
 }
@@ -462,7 +463,7 @@ header{
     color: white;
     opacity: 0;
     transition: .3s;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .estudo .estudo-txt legend{
     padding: 2rem 0;

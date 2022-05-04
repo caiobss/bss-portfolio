@@ -220,11 +220,6 @@
         height: -webkit-fill-available;
     }
     @media (max-width: 1300px){
-        .estudo{
-            margin: 1rem 0;
-            width: 92%;
-            height: 70vh;
-        }
         .estudo .estudo-txt{
             bottom: 30%;
             opacity: 1;
@@ -236,6 +231,13 @@
             bottom: 30%;
         }
 
+    }
+    @media (max-width:1200px){
+        .estudo{
+            margin: 1rem 0;
+            width: 92%;
+            height: 35vh;
+        }
     }
     @media (max-width: 1150px) {
         header .img-wrapper img{
@@ -281,7 +283,10 @@
             margin: 9% 0;
         }
     }
-    @media (max-width:1005px), (max-height:582px){
+    @media (max-width:1005px){
+        .estudo{
+            height: 60vh;
+        }
         .side-bar .menu{
             margin-top: 4rem;
             font-size: .8rem;

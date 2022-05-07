@@ -133,6 +133,7 @@ header {
 }
 
 .side-bar .menu {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,6 +160,7 @@ header {
 }
 
 .social-media {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,6 +170,7 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  bottom: 10%;
 }
 
 .social-media i {
@@ -182,6 +185,10 @@ header {
   cursor: pointer;
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+.social-media a {
+  text-decoration: none;
 }
 
 .menu a {

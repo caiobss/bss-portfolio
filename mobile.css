@@ -147,13 +147,6 @@
             padding: 1rem 1rem;
             font-size: 1rem;
         }
-        .social-media{
-            position: absolute;
-            left: 50%;
-            top: 95%;
-            transform: translate(-50%, -12%);
-            height: 100%;
-        }
         .social-media i{
             display: block;
         }

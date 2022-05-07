@@ -1,4 +1,10 @@
 /*Responsivo do home vertical*/
+html{
+    height: -webkit-fill-available;
+}
+body{
+    height: -webkit-fill-available;
+}
 @media (orientation: portrait){
     @media (max-width:1180px){
         .banner{
@@ -206,12 +212,6 @@
 }
 /*responsivo do home horizontal*/
 @media (orientation:landscape){
-    html{
-        height: -webkit-fill-available;
-    }
-    body{
-        height: -webkit-fill-available;
-    }
     @media (max-width: 1300px){
         .estudo .estudo-txt{
             bottom: 30%;

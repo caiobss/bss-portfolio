@@ -29,6 +29,7 @@ body{
   top: 0%;
   text-align: center;
   border-radius: 0 0 20px;
+  font-family: var(--font-1);
 }
 .seta-voltar:hover span{
   display: block;
@@ -72,7 +73,11 @@ body{
   width: 60%;
 }
 .left-txt h1{
+  font-family: var(--font-1);
   margin-bottom: 1rem;
+}
+.left-txt p{
+  font-family:  var(--font-2);
 }
 .right{
   background-color: #ffffff;

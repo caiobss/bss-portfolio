@@ -1,13 +1,17 @@
 @import url(https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css);
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Bitter', serif;
 }
 :root{
+    --font-1:'Rubik', sans-serif;
+    --font-2:'Ubuntu', sans-serif;
+    --font-3:'Bitter', serif;
     --background1: rgb(179, 114, 240);
+    --background-button: #d86b7d;
 }
 html{
     height: -webkit-fill-available;
@@ -28,7 +32,7 @@ header{
 }
 .hamburguer{
     background-color: var(--background1);
-    padding: .5rem;
+    padding: .4rem;
     border-radius: 5px;
     position: fixed;
     right: 2rem;
@@ -67,6 +71,7 @@ header{
     opacity: 0;
     transition: .3s;
     border-radius: 10px;
+    font-family: var(--font-1);
 }
 .hamburguer div{
     background-color: #f1f1f1f1;
@@ -102,6 +107,7 @@ header{
     align-items: center;
     height: 100%;
     width: 100%;
+    font-family: var(--font-1);
     font-size: .9rem;
     text-decoration: none;
     line-height: 10vh;
@@ -163,6 +169,7 @@ header{
     margin-bottom: 3rem;
 }
 .txt-banner h1{
+    font-family: var(--font-1);
     font-size: 4.2rem;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -171,12 +178,14 @@ header{
 }
 .txt-banner legend{
     animation: exibir-banner 1s .3s forwards;
+    font-family: var(--font-3);
     font-size: 1.7rem;
     opacity: 0;
     color: rgb(230, 62, 62);
     margin-bottom: 1rem;
 }
 .txt-banner p{
+    font-family: var(--font-2);
     font-size: 2.2rem;
     animation: exibir-banner 1s .4s forwards;
     opacity: 0;
@@ -192,14 +201,15 @@ header{
     opacity: 0;
 }
 .bnt{
-    background-color: #d86b7d;
+    background-color: var(--background-button);
     color: white;
-    font-size: 1.5rem;
+    font-family: var(--font-1);
+    font-size: 1.4rem;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     border: none;
     border-radius: 10px;
-    padding: 1rem 3rem;
+    padding: .8rem 3rem;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.562);
     transition: .3s;
     cursor: pointer;
@@ -241,6 +251,7 @@ header{
     justify-content: center;
 }
 .header-txt{
+    font-family: var(--font-1);
     margin: 1rem 0;
     text-align: center;
 }
@@ -282,7 +293,7 @@ header{
     justify-content: center;
     height: 100%;
     width: 8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-1);
     font-size: .7rem;
     border-radius: 0 10px  10px;
 }
@@ -306,6 +317,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-2);
 }
 .informações{
     height: 70%;
@@ -347,6 +359,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-2);
 }
 .sobre-mim{
     width: 94%;
@@ -448,6 +461,12 @@ header{
     width: 25vw;
     border-radius: 10px;
 }
+.estudo h2{
+    font-family: var(--font-1);
+}
+.estudo legend{
+    font-family: var(--font-2);
+}
 .estudo-img{
     background-color: #202025;
     height: 100%;
@@ -518,6 +537,7 @@ footer a{
     color: white;
 }
 .copyright{
+    font-family: var(--font-3);
     font-size: 1rem;
     width: 80%;
 }

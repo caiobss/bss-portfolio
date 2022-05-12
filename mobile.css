@@ -268,8 +268,8 @@ body{
             margin: 2rem 1rem;
         }
         .button-up{
-            height: 2.5rem;
-            width: 2.5rem;
+            height: 2rem;
+            width: 2rem;
             right: 4%;
         }
         .mim-info{
@@ -340,11 +340,6 @@ body{
             font-size: 3rem;
         }
     }
-    @media (max-height: 509px) {
-        .sessao-informações{
-            height: 100vh;
-        }
-    }
     @media (max-height:630px) {
         .banner h1{
             font-size: 2rem;
@@ -378,5 +373,10 @@ body{
             width: 100%;
         }
         
+    }
+    @media (max-height: 509px) {
+        .sessao-informações{
+            height: 100vh;
+        }
     }
 }

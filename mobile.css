@@ -68,7 +68,7 @@ body{
         }
         .estudo{
             margin: 1rem 0;
-            width: 92%;
+            width: 85%;
         }
         .estudo .estudo-txt{
             bottom: 30%;
@@ -255,17 +255,19 @@ body{
         .sobre-mim{
             height: 100%;
         }
+    }
+    @media (max-width:1020px) {
         .sessao-artes{
             height: 0%;
         }
         .artes{
-            height: 90%;
+            height: 100%;
             width: 100%;
         }
         .arte{
-            width: 18rem;
-            height: 18rem;
-            margin: 2rem 1rem;
+            width: 35%;
+            height: 40%;
+            margin: 3% 2%;
         }
         .button-up{
             height: 2rem;

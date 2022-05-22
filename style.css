@@ -588,7 +588,7 @@ header {
 
 .img-sobre-mim {
   background-color: #ffffff;
-  width: 35%;
+  width: 60%;
 }
 
 .img-sobre-mim img {
@@ -599,13 +599,12 @@ header {
 }
 
 .text-sobre-mim {
-  width: 60%;
+  width: 100%;
   max-height: 20rem;
-  margin-left: 1rem;
 }
 
 .text-sobre-mim p {
-  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 /*botão que leva para o começo da página*/
